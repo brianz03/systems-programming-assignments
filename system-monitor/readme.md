@@ -19,16 +19,16 @@ void cpuUsage()\
 -reads the file /proc/stat and sums the values of the top row and calculates the usage by dividing 4th column 
 by the sum of all values. The percentage is the time spent in the states that are not idle
 
-void printCores()\ 
+void printCores() \
 -prints the number of cores 
 
 void printUsers()\
 -prints users and information about each user from the utmp file
 
-void printSysInfo()\ 
+void printSysInfo()\
 -prints system info 
 
-void printMemUsage(char *str)\ 
+void printMemUsage(char *str)\
 -prints 1 sample for memory usage
 
 void printProgramUsage()\
